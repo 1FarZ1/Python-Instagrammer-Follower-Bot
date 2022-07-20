@@ -2,9 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 from selenium.webdriver.common.by import By
-EMAIL="faresmr15@gmail.com"
-PASSWORD="mrfares77"
-target="ahmedgsa"
+EMAIL=UR_EMAIL
+PASSWORD=UR_PASSWORD
+target=UR_TARGET
 class InstaFollower():
     def __init__(self,driver):
         self.driver=driver
